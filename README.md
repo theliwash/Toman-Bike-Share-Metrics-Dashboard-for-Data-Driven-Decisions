@@ -3,19 +3,13 @@
 ## Overview
 This repository contains the code and resources for developing a dashboard for "Toman Bike Share." The dashboard aims to display key performance metrics to facilitate informed decision-making within the organization.
 
-## Features
-- **Total Riders and Profitability:** The bike-sharing service has 3 million riders with a profit margin of 45.4%.
-- **Financial Performance:** Total profit is $10.45 million, and total revenue is $15 million.
-- **Seasonal Revenue:** Highest revenue in season 3 ($4.9 million) and lowest in season 1 ($2.2 million).
-- **Rider Demographics:** 81.17% are registered riders, and 18.83% are casual riders.
-- **Hourly Revenue Analysis:** The table shows hourly revenue from 8 AM to 8 PM across the week. Tuesday is the busiest and most profitable day, especially at 12 PM and 5 PM, with earnings of $1,222 and $1,254 respectively. The most profitable times across the week are 8 AM on Thursday, 9 AM on Friday, 12 PM on Monday, 5 PM on Tuesday, and 7 PM on Tuesday. These times show the highest revenue for the bike-sharing service.
-
-## Data Source
-The necessary datasets can be found in the link given below:
-https://github.com/Gaelim/YT_bike_share
-
 ## Tech Stack
-- **SQL:** Data will be queried and manipulated using SQL for database operations. Below is an example of the SQL query used to create a new table for dashboard development:
+- **SQL:** Data is queried and manipulated using SQL for database operations in this dashboard development. 
+
+- **Power BI:** The dashboard is developed using Power BI for data visualization and analysis.
+
+## SQL Code
+Below is the snippet of the SQL query used to create a new table for dashboard development:
 ```sql
 with cte as (
 select * from bike_share_yr_0
@@ -39,8 +33,16 @@ left join cost_table b
 on a.yr = b.yr
 ```
 
-- **Power BI:** The dashboard will be developed using Power BI for data visualization and analysis.
+## Features
+- **Total Riders and Profitability:** The bike-sharing service has 3 million riders with a profit margin of 45.4%.
+- **Financial Performance:** Total profit is $10.45 million, and total revenue is $15 million.
+- **Seasonal Revenue:** Highest revenue in season 3 ($4.9 million) and lowest in season 1 ($2.2 million).
+- **Rider Demographics:** 81.17% are registered riders, and 18.83% are casual riders.
+- **Hourly Revenue Analysis:** The table shows hourly revenue from 8 AM to 8 PM across the week. Tuesday is the busiest and most profitable day, especially at 12 PM and 5 PM, with earnings of $1,222 and $1,254 respectively. The most profitable times across the week are 8 AM on Thursday, 9 AM on Friday, 12 PM on Monday, 5 PM on Tuesday, and 7 PM on Tuesday. These times show the highest revenue for the bike-sharing service.
 
+## Data Source
+The necessary datasets can be found in the link given below:
+https://github.com/Gaelim/YT_bike_share
 
 ## Recommendations
 ### Pricing Strategy
