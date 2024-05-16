@@ -1,9 +1,8 @@
-# Toman Bike Share Dashboard
+## Overview
 
 ![Untitled design](https://github.com/theliwash/Toman-Bike-Share-Metrics-Dashboard-for-Data-Driven-Decisions/assets/163035610/5efd7fd2-57e1-4e24-bf7f-8a4a46a2b0a4)
 
 
-## Overview
 This repository contains the code and resources for developing a dashboard for "Toman Bike Share." The dashboard aims to display key performance metrics to facilitate informed decision-making within the organization.
 
 ## Tech Stack
