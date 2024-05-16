@@ -3,6 +3,9 @@
 ## Overview
 This repository contains the code and resources for developing a dashboard for "Toman Bike Share." The dashboard aims to display key performance metrics to facilitate informed decision-making within the organization.
 
+![Screenshot (28)](https://github.com/theliwash/Toman-Bike-Share-Metrics-Dashboard-for-Data-Driven-Decisions/assets/163035610/8aad75de-c3e1-46e5-b79d-932912c7ec3f)
+
+
 ## Tech Stack
 - **SQL:** Data is queried and manipulated using SQL for database operations in this dashboard development. 
 
