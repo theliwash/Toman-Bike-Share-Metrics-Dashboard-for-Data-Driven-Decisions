@@ -3,13 +3,14 @@
 ## Overview
 This repository contains the code and resources for developing a dashboard for "Toman Bike Share." The dashboard aims to display key performance metrics to facilitate informed decision-making within the organization.
 
-![Screenshot (28)](https://github.com/theliwash/Toman-Bike-Share-Metrics-Dashboard-for-Data-Driven-Decisions/assets/163035610/8aad75de-c3e1-46e5-b79d-932912c7ec3f)
-
-
 ## Tech Stack
 - **SQL:** Data is queried and manipulated using SQL for database operations in this dashboard development. 
 
 - **Power BI:** The dashboard is developed using Power BI for data visualization and analysis.
+
+## Data Source
+The necessary datasets can be found in the link given below:
+https://github.com/Gaelim/YT_bike_share
 
 ## SQL Code
 Below is the snippet of the SQL query used to create a new table for dashboard development:
@@ -43,9 +44,7 @@ on a.yr = b.yr
 - **Rider Demographics:** 81.17% are registered riders, and 18.83% are casual riders.
 - **Hourly Revenue Analysis:** The table shows hourly revenue from 8 AM to 8 PM across the week. Tuesday is the busiest and most profitable day, especially at 12 PM and 5 PM, with earnings of $1,222 and $1,254 respectively. The most profitable times across the week are 8 AM on Thursday, 9 AM on Friday, 12 PM on Monday, 5 PM on Tuesday, and 7 PM on Tuesday. These times show the highest revenue for the bike-sharing service.
 
-## Data Source
-The necessary datasets can be found in the link given below:
-https://github.com/Gaelim/YT_bike_share
+
 
 ## Recommendations
 ### Pricing Strategy
@@ -55,6 +54,11 @@ https://github.com/Gaelim/YT_bike_share
   - **Market Analysis:** Conduct further market research to understand customer satisfaction, potential competitive changes, and the overall economic environment. This can guide whether leaning towards the lower or higher end of the suggested increase.
   - **Segmented Pricing Strategy:** Consider different pricing for casual versus registered users, as they may have different price sensitivities.
   - **Monitor and Adjust:** Implement the new prices but be ready to adjust based on immediate customer feedback and sales data. Monitoring closely will allow you to fine-tune your pricing strategy without committing fully to a price that might turn out to be too high.
+ 
+## Final Dashboard
+
+![Screenshot (28)](https://github.com/theliwash/Toman-Bike-Share-Metrics-Dashboard-for-Data-Driven-Decisions/assets/163035610/8aad75de-c3e1-46e5-b79d-932912c7ec3f)
+
 
 ## Usage
 - Clone the repository to your local machine.
